@@ -1,0 +1,173 @@
+.water-consumption-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+
+  .mb-3Home{
+    color: #fff;
+  }
+
+  .mb-3Contact{
+    color: #000;
+  }
+
+  .headerButton{
+    background-color: #006eb6;
+  }
+  
+  .input-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  .formsButton {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .result-container {
+    margin-top: 20px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .water-consumption-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .input-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  .formbutton {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .result-container {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    animation: fade-in 0.5s;
+  }
+
+  .footer h6{
+      color: #04304a;
+  }
+
+  .footer li{
+    list-style: none;
+    padding-bottom: 10px;
+    margin-left: -2rem;
+}
+
+  .footer .link{
+    text-decoration: none;
+    color:#04304a;
+    font-size: 14px;
+}
+
+.aboutLink{
+  text-decoration: none;
+  padding-top: 10px;
+  color: #000;
+}
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .result-container.domestic {
+    background-color: #cfe2f3;
+  }
+  
+  .result-container.commercial {
+    background-color: #fef3c2;
+  }
+  
+  .result-container.industrial {
+    background-color: #fbb4ae;
+  }
+  
+  p {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .error-message {
+    color: #f44336;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .reset-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
